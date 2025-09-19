@@ -47,7 +47,7 @@ function App() {
   }
 
   useEffect(() => { 
-    let socketInstance = io("http://localhost:3000"); 
+    let socketInstance = io("https://ai-chatboat-using-socat-io.onrender.com"); 
     setSocket(socketInstance)
 
     // front end par response dikhane ke liya
