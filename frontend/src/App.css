@@ -1,9 +1,12 @@
 /* Chat Container */
 .chat-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px;
   height: 100%;
   display: flex;
+  margin: auto;
+
+  
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
